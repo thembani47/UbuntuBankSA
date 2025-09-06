@@ -1,0 +1,12 @@
+as_of_date,segment,kyc_status,client_count,pct_of_total
+2025-09-06,Corporate,Pending,1,0.167
+2025-09-06,Corporate,Verified,33,5.5
+2025-09-06,Medium,Pending,15,2.5
+2025-09-06,Medium,Review,2,0.333
+2025-09-06,Medium,Verified,142,23.667
+2025-09-06,Micro,Pending,12,2.0
+2025-09-06,Micro,Review,4,0.667
+2025-09-06,Micro,Verified,181,30.167
+2025-09-06,Small,Pending,22,3.667
+2025-09-06,Small,Review,7,1.167
+2025-09-06,Small,Verified,181,30.167
