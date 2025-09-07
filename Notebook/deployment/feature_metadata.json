@@ -1,0 +1,65 @@
+{
+  "numeric_features": [
+    "avg_balance",
+    "inflow_txn_cnt",
+    "outflow_txn_cnt",
+    "inflow_amount",
+    "outflow_amount",
+    "digital_logins_cnt",
+    "days_active",
+    "avg_ticket_size",
+    "email_open_rate",
+    "email_ctr",
+    "years_in_business"
+  ],
+  "categorical_features": [
+    "industry_name",
+    "segment",
+    "turnover_band",
+    "employees_band"
+  ],
+  "feature_means": {
+    "avg_balance": 122570.46777573755,
+    "inflow_txn_cnt": 25.148453739977285,
+    "outflow_txn_cnt": 23.41070333345342,
+    "inflow_amount": 310356.0229563306,
+    "outflow_amount": 292279.8268822611,
+    "digital_logins_cnt": 11.710570134419575,
+    "days_active": 11.870253772962915,
+    "avg_ticket_size": 16277.368039150057,
+    "email_open_rate": 25.248963611493515,
+    "email_ctr": 8.821331416266053,
+    "years_in_business": 19.107677
+  },
+  "category_levels": {
+    "industry_name": [
+      "Manufacturing",
+      "Information Technology",
+      "Financial Services",
+      "Construction",
+      "Hospitality & Tourism",
+      "Healthcare",
+      "Education",
+      "Transport & Logistics",
+      "Agriculture",
+      "Retail & Wholesale"
+    ],
+    "segment": [
+      "Small",
+      "Corporate",
+      "Micro",
+      "Medium"
+    ],
+    "turnover_band": [
+      "< R5m"
+    ],
+    "employees_band": [
+      "1-5",
+      "51-100",
+      "21-50",
+      "6-20",
+      "101-250",
+      "250+"
+    ]
+  }
+}
