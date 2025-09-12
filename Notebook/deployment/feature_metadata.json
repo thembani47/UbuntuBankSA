@@ -1,65 +1,28 @@
 {
   "numeric_features": [
+    "years_in_business",
     "avg_balance",
-    "inflow_txn_cnt",
-    "outflow_txn_cnt",
-    "inflow_amount",
-    "outflow_amount",
     "digital_logins_cnt",
     "days_active",
-    "avg_ticket_size",
     "email_open_rate",
-    "email_ctr",
-    "years_in_business"
+    "email_ctr"
   ],
   "categorical_features": [
-    "industry_name",
-    "segment",
-    "turnover_band",
-    "employees_band"
+    "segment_norm"
   ],
   "feature_means": {
-    "avg_balance": 122360.236825,
-    "inflow_txn_cnt": 25.564814814814817,
-    "outflow_txn_cnt": 23.65888888888889,
-    "inflow_amount": 310187.3732648148,
-    "outflow_amount": 292223.3770486111,
-    "digital_logins_cnt": 11.699490740740742,
-    "days_active": 11.88787037037037,
-    "avg_ticket_size": 14297.559001157408,
-    "email_open_rate": 25.197714583333333,
-    "email_ctr": 8.764925810185186,
-    "years_in_business": 19.101666666666667
+    "years_in_business": 5.7334,
+    "avg_balance": 34284.261511714285,
+    "digital_logins_cnt": 50.66274285714287,
+    "days_active": 24.037971428571424,
+    "email_open_rate": 20.91404342857143,
+    "email_ctr": 7.337454000000001
   },
   "category_levels": {
-    "industry_name": [
-      "Healthcare",
-      "Construction",
-      "Retail & Wholesale",
-      "Financial Services",
-      "Manufacturing",
-      "Education",
-      "Transport & Logistics",
-      "Agriculture",
-      "Information Technology",
-      "Hospitality & Tourism"
-    ],
-    "segment": [
-      "Medium",
+    "segment_norm": [
       "Micro",
-      "Small",
+      "SME",
       "Corporate"
-    ],
-    "turnover_band": [
-      "< R5m"
-    ],
-    "employees_band": [
-      "51-100",
-      "6-20",
-      "21-50",
-      "1-5",
-      "101-250",
-      "250+"
     ]
   }
 }
